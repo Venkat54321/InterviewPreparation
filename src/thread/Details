@@ -1,0 +1,42 @@
+
+Person - id,name,details
+
+Movie - id,name,details
+
+Seat - id,status,category
+
+
+BookTicketsMapper - (movieId,PersonId,seatsId)
+
+(Key,Value)
+key - hashcode % 16 - 3
+
+(key,vaue) - 3 --- linkedlist - tree
+
+read - key
+ hashcode % 16 - 3
+
+17 - hashcode % 16 -> 4
+
+int num = 100
+
+even or odd without mudular
+
+
+String str = “hi          Venkatesh,                    how do    You        do     ?”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
