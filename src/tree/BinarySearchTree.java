@@ -69,10 +69,12 @@ public class BinarySearchTree {
         bt.insert(60);
         bt.insert(10);
         bt.insert(90);
+        bt.insert(15);
 
        // InorderTraversal.inOrderTraversal(bt.root);
        // PreOrderTraversal.preOrderTraversal(bt.root);
         //PostOrderTraversal.postOrderTraversal(bt.root);
-        LevelOrderTraversal.levelOrderTraversal(bt.root);
+        //LevelOrderTraversal.levelOrderTraversal(bt.root);
+        System.out.println(HeightOfBinaryTree.heightOfTree(bt.root));
     }
 }
