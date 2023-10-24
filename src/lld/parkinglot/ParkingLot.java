@@ -14,7 +14,7 @@ public class ParkingLot {
     // Create a hashmap that identifies all currently generated tickets using their ticket number
     private HashMap<String, ParkingTicket> tickets;
 
-    // The ParkingLot is a designpattern.structure.singleton class that ensures it will have only one active instance at a time
+    // The ParkingLot is a designpattern.creational.singleton class that ensures it will have only one active instance at a time
     // Both the Entrance and Exit classes use this class to create and close parking tickets
     private static ParkingLot parkingLot = null;
 
@@ -24,7 +24,7 @@ public class ParkingLot {
         // Create initial entrance and exit hashmaps respectively
     }
 
-    // Created a static method to access the designpattern.structure.singleton instance of ParkingLot
+    // Created a static method to access the designpattern.creational.singleton instance of ParkingLot
     public static ParkingLot getInstance() {
         if (parkingLot == null) {
             parkingLot = new ParkingLot();

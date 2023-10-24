@@ -1,7 +1,7 @@
-package designpattern.structure;
+package designpattern.creational;
 
 /**
- * It would be easy to understand prototype design pattern with an example.
+ * It would be leetcode.easy to understand prototype design pattern with an example.
  * Suppose we have an Object that loads data from database.
  * Now we need to modify this data in our program multiple times, so it’s not a good idea to
  * create the Object using new keyword and load all the data again from database.

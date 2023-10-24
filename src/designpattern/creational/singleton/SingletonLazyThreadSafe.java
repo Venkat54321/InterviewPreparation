@@ -1,4 +1,4 @@
-package designpattern.structure.singleton;
+package designpattern.creational.singleton;
 
 public class SingletonLazyThreadSafe {
 

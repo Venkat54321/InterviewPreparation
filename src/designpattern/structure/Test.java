@@ -1,4 +1,4 @@
 package designpattern.structure;
 
-public class Factory {
+public class Test {
 }
