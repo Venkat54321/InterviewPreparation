@@ -10,11 +10,11 @@ import java.util.List;
 public class MissingRanges {
 
     public static void main(String[] args) {
-        //int[] nums = {0,1,3,50,75};
+        int[] nums = {0,1,3,50,75};
         //int[] nums = { -1};
-        int[] nums = {1,3};
+        //int[] nums = {1,3};
         int lower = 0;
-        int upper = 9;
+        int upper = 99;
        // List<List<Integer>> finalList = worstSolution(nums,lower,upper);
         List<List<Integer>> finalList = bestSolution(nums,lower,upper);
 
