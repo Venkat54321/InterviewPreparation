@@ -1,4 +1,4 @@
-package leetcode.easy;
+package leetcode.array.easy;
 
 /**
  * https://leetcode.com/problems/remove-element/description/
