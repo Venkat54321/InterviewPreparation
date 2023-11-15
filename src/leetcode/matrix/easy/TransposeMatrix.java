@@ -14,7 +14,7 @@ public class TransposeMatrix {
         }
     }
 
-    private static int[][] inPlaceSolution(int[][] matrix) {
+    public static int[][] inPlaceSolution(int[][] matrix) {
         int n = matrix.length;
         for(int i = 0;i<n-1;i++){
             for(int j = i+1;j<n;j++){
