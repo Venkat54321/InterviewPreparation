@@ -23,7 +23,7 @@ public class MoveZeroes {
         if(array.length == 1){
             return array;
         }
-        while (i < length &&  j < length){
+        while (j < length){
             if(array[j] != 0){
                 swap(array,i,j);
                 i = i + 1;
