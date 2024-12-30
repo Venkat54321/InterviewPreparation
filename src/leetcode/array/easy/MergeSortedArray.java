@@ -5,14 +5,14 @@ import java.util.Arrays;
 public class MergeSortedArray {
 
     public static void main(String[] args) {
-        /*int[] array1 = {1,2,3,0,0,0};
-        int[] array2 = {2,5,6};
-        int m = 3;
-        int n = 3;*/
         int[] array1 = {2,0};
-        int m = 1;
         int[] array2 = {1};
+        int m = 1;
         int n = 1;
+        //int[] array1 = {2,0};
+       // int m = 1;
+        //int[] array2 = {1};
+        //int n = 1;
         mergeSortedArray(array1,m,array2,n);
         Arrays.stream(array1).forEach(i -> System.out.print(i + " "));
     }
@@ -32,7 +32,7 @@ public class MergeSortedArray {
             if(array1[i] < array2[j]){
                 array1[k] = array2[j];
                 j--;
-            }else {
+            }else if(array1[i] > array2[j]) {
                 array1[k] = array1[i];
                 i--;
             }

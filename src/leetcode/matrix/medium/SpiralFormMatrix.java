@@ -8,7 +8,6 @@ public class SpiralFormMatrix {
         int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
         List<Integer> list = mySolution(matrix);
         System.out.println(list);
-
     }
 
     private static List<Integer> mySolution(int[][] matrix) {

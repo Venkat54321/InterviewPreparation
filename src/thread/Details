@@ -11,7 +11,7 @@ BookTicketsMapper - (movieId,PersonId,seatsId)
 (Key,Value)
 key - hashcode % 16 - 3
 
-(key,vaue) - 3 --- linkedlist - tree
+(key,vaue) - 3 --- linkedlist - leetcode.tree
 
 read - key
  hashcode % 16 - 3

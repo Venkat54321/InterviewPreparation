@@ -1,4 +1,4 @@
-package tree;
+package leetcode.tree;
 
 public class InorderTraversal {
 
@@ -7,7 +7,7 @@ public class InorderTraversal {
             return;
         }
         inOrderTraversal(node.left);
-        System.out.println(node.data);
+        System.out.print(node.data + "  ");
         inOrderTraversal(node.right);
     }
 }
